@@ -1,0 +1,17 @@
+*{
+    font-family: 'Monserrat', sans-serif;
+}
+
+.inicio {
+    background-color: #00171F;
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .botones a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+  }
+  
