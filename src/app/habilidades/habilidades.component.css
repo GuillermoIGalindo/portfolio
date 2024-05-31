@@ -1,0 +1,29 @@
+.habilidades-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .habilidad {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%; /* Ajusta esto según el número de habilidades que quieras por fila */
+  }
+  
+  .habilidad h2 {
+    color: #003344;
+  }
+  
+  .habilidad p {
+    color: #666;
+  }
+  
