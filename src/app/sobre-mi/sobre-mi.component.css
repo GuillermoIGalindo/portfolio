@@ -1,0 +1,23 @@
+.sobre-mi {
+    display: flex;
+    justify-content: space-between;
+    background-color: #003344; /* Color de fondo oscuro */
+    color: white; /* Texto en color blanco para contraste */
+    padding: 20px;
+  }
+  
+  .contenido {
+    flex: 1;
+    padding-right: 20px; /* Espacio entre el texto y la imagen */
+  }
+  
+  .imagen {
+    flex: 1;
+    text-align: center; /* Centrar la imagen si es más pequeña que el espacio disponible */
+  }
+  
+  .imagen img {
+    max-width: 100%; /* Asegura que la imagen no exceda el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+  
