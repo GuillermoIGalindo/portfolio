@@ -1,7 +1,7 @@
 .habilidades-container {
     text-align: center;
     padding: 20px;
-    background-color: #f7f7f7;
+    background-color: #00171F;
   }
   
   .habilidades {
@@ -25,5 +25,8 @@
   
   .habilidad p {
     color: #666;
+  }
+  h1{
+    color: white;
   }
   
