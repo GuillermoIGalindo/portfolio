@@ -1,10 +1,39 @@
-<div class="inicio container">
-    <h1>Luis Guillermo Isidoro Galindo</h1>
-    <p>Desarrollador</p>
-    <div class="botones">
-      <a href="URL_DE_GITHUB" target="_blank">GitHub</a>
-      <a href="URL_DE_LINKEDIN" target="_blank">LinkedIn</a>
-      <a href="URL_PARA_DESCARGAR_CV" download="Guillermo_CV.pdf">Descargar CV</a>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="assets/Logogg.webp">
+      <a target="_blank"></a>
+    </div>
+    <ul>
+      <li><a href="#main">Inicio</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+    </ul>
+    <button>Contactame</button>
+    <button id="menuButton">
+      <i class='bx bx-menu'></i>
+    </button>
+  </nav>
+
+  <div class="main" id="main">
+    <div class="left">
+      <h5 style="color: #5e3bee;">Soy Guillermo</h5>
+      <h3 style="color: white;">Desarrollador <span>Full</span> Stack</h3>
+      <p>
+        Apasionado por la programación y la creación de aplicaciones web que transforman ideas en realidades
+      </p>
+      <button>Descargar CV</button>
+    </div>
+    <div class="right">
+     <!--  <img src="assets/mg.png"> -->
     </div>
   </div>
-  
+
+  <app-habilidades></app-habilidades>
+
+  <app-sobre-mi></app-sobre-mi>
+
+  <app-proyectos></app-proyectos>
+   
+</body>
